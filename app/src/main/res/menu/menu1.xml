@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:id="@+id/m1"
+        android:icon="@drawable/icon"
+        android:title="backw"
+        app:showAsAction="always"
+       />
+    <item android:id="@+id/m2"
+        android:icon="@drawable/icon"
+        android:title="delete"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/m3"
+        android:icon="@drawable/icon"
+        android:title="setting"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/m4"
+        android:icon="@drawable/icon"
+        android:title="setting2"
+        />
+    <item android:id="@+id/m5"
+        android:icon="@drawable/icon"
+        android:title="setting3"
+        />
+</menu>
