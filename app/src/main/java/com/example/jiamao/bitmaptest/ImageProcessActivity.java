@@ -56,6 +56,10 @@ public class ImageProcessActivity extends AppCompatActivity implements SeekBar.O
         Log.d(TAG, "bitmap=: "+bitmap);
     }
 
+    /**
+     * 把drawable》Bitmap
+     * @param drawable
+     */
     private void drawableToBitamp(Drawable drawable)
     {
         int w = drawable.getIntrinsicWidth();
